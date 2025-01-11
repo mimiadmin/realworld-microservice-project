@@ -9,7 +9,7 @@ pipeline {
         // Checkout To The Service Branch
         stage('Checkout To Mcroservice Branch'){
             steps{
-                git branch: 'app-database', url: 'https://github.com/awanmbandi/realworld-microservice-project.git'
+                git branch: 'app-database', url: 'https://github.com/mimiadmin/realworld-microservice-project.git'
             }
         }
         // Deploy to The Staging/Test Environment
